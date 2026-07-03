@@ -1,4 +1,5 @@
 
+import java.util.Arrays;
 import java.util.Scanner;
 public class ArrayInput {
     public static void main(String[]args){
@@ -8,8 +9,8 @@ public class ArrayInput {
             array[i] = sc.nextInt();
             
         }
-        for(int i=0;i<array.length;i++){
-            System.out.print(array[i] + " ");
+        for(int nums:array){
+            System.out.print(nums + " ");
         }
         sc.close();
     }
